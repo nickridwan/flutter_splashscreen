@@ -120,19 +120,18 @@ class _SplashState extends State<Splash> with TickerProviderStateMixin {
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   color: AppColor.kDarkBackgroundPrimaryColor,
+                    ),
+                  ),
                 ),
               ),
             ),
           ),
         ),
+       )
+      ],
       ),
-    ),
-            )
-          ],
-        ),
-      );
-    });
-  }
-
- 
+    );
+    },
+    );
+ }
 }
